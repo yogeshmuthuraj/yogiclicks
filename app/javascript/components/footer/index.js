@@ -4,13 +4,10 @@ import PropTypes from 'prop-types';
 class Footer extends React.Component {
   render() {
     return (
-      <div class="container">
-        <div class="page-header">
-          <h1>Example Page Header</h1>
-        </div>
-        <p>This is some text.</p>
-        <p>This is another text.</p>
-      </div>
+      <footer className="container-fluid text-center">
+        <hr className="footer"/>
+        <p>Copyright © 2018. All rights reserved.</p>
+      </footer>
     );
   }
 }

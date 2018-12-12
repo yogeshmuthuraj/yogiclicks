@@ -5,19 +5,18 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <div class="container-fluid">
-          <h1>Bootstrap Affix Example</h1>
-          <h3>Fixed (sticky) navbar on scroll</h3>
-          <p>Scroll this page to see how the navbar behaves with data-spy="affix".</p>
-          <p>The navbar is attached to the top of the page after you have scrolled a specified amount of pixels.</p>
+        <div className="container-fluid header text-center">
+          <h1>Testing header</h1>
         </div>
-        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Basic Topnav</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-          </ul>
+        <nav className="navbar navbar-inverse" data-spy="affix" data-offset-top="100">
+          <div className="text-center">
+            <ul className="nav navbar-nav">
+              <li className="active"><a href="#">Home</a></li>
+              <li><a href="#">Landscapes</a></li>
+              <li><a href="#">Portraits</a></li>
+              <li><a href="#">Others</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
     );
