@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Header from './header';
 import Footer from './footer';
-import HomeContent from './home/content';
+import LoginContent from './login/content';
 
 class Login extends React.Component {
   render () {
     return (
       <div>
         <Header />
-          <HomeContent />
+          <LoginContent />
         <Footer />
       </div>
     );
