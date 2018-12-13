@@ -4,7 +4,7 @@ import Header from './header';
 import Footer from './footer';
 import HomeContent from './home/content';
 
-class Home extends React.Component {
+class Login extends React.Component {
   render () {
     return (
       <div>
@@ -16,8 +16,8 @@ class Home extends React.Component {
   }
 }
 
-Home.propTypes = {
+Login.propTypes = {
   total_photos: PropTypes.number
 };
 
-export default Home;
+export default Login;
