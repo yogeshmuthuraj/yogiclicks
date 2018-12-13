@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   root 'home#index'
 
-  get '/login', to: 'login#index'
+  resources :login, only: :index
 end
